@@ -1,0 +1,24 @@
+language variant
+name voice385
+##Properties##
+gender none
+flutter 4
+##voice creation##
+formant 0 84 140 86
+formant 1 134 131 122
+formant 2 124 76 93
+formant 3 139 72 136
+formant 4 109 96 93
+formant 5 105 100 92
+formant 6 93 94 93
+formant 7 102 104 99
+formant 8 104 101 100
+##misc##
+intonation 1
+pitch 120 214
+echo 12 687
+roughness 2
+consonants 68 68
+voicing 79
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 73 189 181 152 95 327 267 459

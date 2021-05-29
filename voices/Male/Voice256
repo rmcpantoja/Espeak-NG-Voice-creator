@@ -1,0 +1,22 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice256
+##Properties##
+gender None 44
+flutter 1
+##voice creation##
+formant 0 145 96 152
+formant 1 106 114 103
+formant 2 77 175 148
+formant 3 125 146 146
+formant 4 133 89 87
+formant 5 136 148 95
+formant 6 91 113 95
+formant 7 89 81 125
+formant 8 103 97 94
+##misceanellous##
+intonation 1
+pitch 160 191
+roughness 2
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 178 108 65 214 154 122 141 277

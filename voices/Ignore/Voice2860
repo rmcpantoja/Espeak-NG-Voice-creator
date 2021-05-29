@@ -1,0 +1,25 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice2860
+##Properties##
+gender None 15
+flutter 2
+##voice creation##
+formant 0 109 97 89
+formant 1 123 78 165
+formant 2 150 101 122
+formant 3 106 135 93
+formant 4 109 132 139
+formant 5 152 57 49
+formant 6 114 147 77
+formant 7 97 125 65
+formant 8 62 62 112
+##misceanellous##
+intonation 2
+pitch 194 185
+echo 68 3723
+roughness 3
+voicing 100
+speed 115
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 52 25 85 96 21 135 88 120

@@ -1,0 +1,21 @@
+language variant
+name Voice30
+gender Male 20
+flutter 1
+formant 0 97 74 110
+formant 1 70 102 74
+formant 2 99 80 72
+formant 3 96 126 120
+formant 4 97 92 109
+formant 5 110 80 88
+formant 6 103 104 105
+formant 7 114 109 88
+formant 8 92 154 119
+intonation 2
+pitch 101 208
+echo 97 21
+roughness 1
+consonants 120 83
+voicing 94
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 193 192 138 140 192 79 125 204

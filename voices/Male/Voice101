@@ -1,0 +1,22 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice101
+##Properties##
+gender None 49
+flutter 5
+##voice creation##
+formant 0 133 96 95
+formant 1 134 119 92
+formant 2 110 100 98
+formant 3 84 93 109
+formant 4 100 107 84
+formant 5 88 90 113
+formant 6 141 129 95
+formant 7 80 72 116
+formant 8 112 134 107
+##misceanellous##
+intonation 3
+pitch 82 200
+roughness 2
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 125 108 158 225 42 125 40 343
