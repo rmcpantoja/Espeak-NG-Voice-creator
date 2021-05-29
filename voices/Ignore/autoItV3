@@ -1,0 +1,23 @@
+language variant 
+name autoItV3
+gender none
+flutter 4
+formant 0 125 120 108
+formant 1 110 74 102
+formant 2 76 101 86
+formant 3 137 99 131
+formant 4 99 92 119
+formant 5 108 97 93
+formant 6 87 103 88
+formant 7 133 120 137
+formant 8 88 97 104
+intonation 3
+pitch 62 123
+breath 35 11 15 24 19 16 19
+roughness 5
+consonants 115 198
+voicing 133
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 80 240 172 246 92 100 132 483
+stressAmp 16 16 24 24 16 16 20 24
+tone 100 255 600 70 1200 22 2000 66 3000 12

@@ -1,0 +1,23 @@
+language variant
+name AutoItExample
+##Properties##
+gender male 40
+flutter 3
+##voice creation##
+formant 0 133 68 85
+formant 1 112 84 135
+formant 2 78 144 78
+formant 3 82 86 72
+formant 4 92 86 101
+formant 5 102 99 94
+formant 6 102 113 97
+formant 7 110 101 100
+formant 8 113 110 98
+##misceanellous##
+intonation 1
+pitch 56 127
+roughness 2
+consonants 132 192
+voicing 79
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 232 202 152 216 205 344 121 122

@@ -1,0 +1,22 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice1928
+##Properties##
+gender None 18
+flutter 2
+##voice creation##
+formant 0 99 112 105
+formant 1 130 94 84
+formant 2 160 109 66
+formant 3 100 74 69
+formant 4 132 50 90
+formant 5 95 82 109
+formant 6 90 124 102
+formant 7 149 123 74
+formant 8 72 80 77
+##misceanellous##
+intonation 2
+pitch 180 298
+roughness 1
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 119 30 179 67 55 205 192 139

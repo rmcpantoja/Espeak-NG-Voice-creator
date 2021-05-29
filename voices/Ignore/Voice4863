@@ -1,0 +1,22 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice4863
+##Properties##
+gender None 76
+flutter 2
+##voice creation##
+formant 0 78 157 117
+formant 1 79 91 124
+formant 2 141 75 128
+formant 3 123 133 93
+formant 4 111 131 58
+formant 5 101 142 62
+formant 6 145 135 130
+formant 7 91 118 144
+formant 8 64 129 133
+##misceanellous##
+intonation 1
+pitch 187 252
+roughness 4
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 150 54 173 182 154 118 156 170

@@ -1,0 +1,22 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice994
+##Properties##
+gender None 65
+flutter 5
+##voice creation##
+formant 0 120 57 83
+formant 1 123 136 106
+formant 2 118 86 112
+formant 3 147 145 70
+formant 4 111 141 85
+formant 5 130 146 120
+formant 6 72 107 99
+formant 7 141 103 90
+formant 8 109 66 121
+##misceanellous##
+intonation 1
+pitch 157 272
+roughness 2
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 91 107 159 207 120 75 143 288

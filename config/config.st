@@ -1,0 +1,2 @@
+[accessibility]
+Speak Whit=NVDA
