@@ -1,0 +1,26 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice530
+##Properties##
+gender None 75
+flutter 3
+##voice creation##
+formant 0 137 158 107
+formant 1 77 102 156
+formant 2 136 70 125
+formant 3 138 110 113
+formant 4 87 107 78
+formant 5 147 91 35
+formant 6 79 88 93
+formant 7 133 75 92
+formant 8 110 95 105
+##misceanellous##
+intonation 3
+pitch 145 268
+roughness 2
+breath 9 7 16 3 34 22 15 71
+consonants 145 193
+voicing 73
+speed 105
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 138 36 148 148 39 134 151 263

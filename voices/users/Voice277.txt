@@ -1,0 +1,24 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice277
+##Properties##
+gender None 36
+flutter 3
+##voice creation##
+formant 0 107 151 104
+formant 1 150 131 90
+formant 2 142 123 85
+formant 3 68 112 101
+formant 4 151 59 67
+formant 5 158 74 122
+formant 6 104 95 71
+formant 7 107 132 62
+formant 8 113 67 68
+##misceanellous##
+intonation 2
+pitch 198 176
+roughness 5
+consonants 71 64
+speed 94
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 136 93 30 102 117 227 103 280

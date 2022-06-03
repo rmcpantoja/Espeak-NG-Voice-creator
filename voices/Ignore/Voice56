@@ -1,0 +1,24 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice56
+##Properties##
+gender None 38
+flutter 1
+##voice creation##
+formant 0 86 78 144
+formant 1 77 101 164
+formant 2 70 132 116
+formant 3 64 62 73
+formant 4 92 79 94
+formant 5 81 89 119
+formant 6 110 79 95
+formant 7 131 57 61
+formant 8 98 109 59
+##misceanellous##
+intonation 3
+pitch 96 276
+roughness 3
+breath 27 4 2 13 23 22 8 36
+speed 103
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 53 11 137 138 143 73 35 57

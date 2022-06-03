@@ -1,0 +1,21 @@
+Espeak NG Voice Creator User Manual:
+Note: Both the program and the documentation have been rewritten, although the previous version has been lost. This new version includes improvements in voice creation and GUI.
+* What is this?
+Espeak NG Voice creator, as its name implies, is a voice creator for the Espeak NG synthesizer, a voice synthesizer integrated into the NVDA screen reader, Orca For Linux, among others. He supports more than 100 languages, including Spanish. It is very Libyan and light for the synthesis response, but its voice gives a lot to say, that is, it may not be pleasant for some people or the voice just does not seem to satisfy people due to the fact that it is a synthesizer by formants and it is highly probable that the voice may be somewhat insecure.
+Although Espeak has a very robotic voice, there are more personalized voices that can be chosen, created or modified, as the user adapts, and with good reason, this program fulfills the objective of creating different voices with different qualities and algorithms, of at the moment only for Windows (although the voices can be copied to another device that supports Espeak).
+* How to use?
+First open the EVC.exe file
+When you run, the program loads and checks if there is an update available, and if there is, it informs you.
+Note: If when opening a security alert appears in Windows, press the "Allow access" button.
+Explanation: This is because now the program uses another update method than it used to previously in the rest of my suite, via ftp to our new 260mb server. In the previous method I was trying to download the data file (version available, message of the day) from a link, which points to a file in my Dropbox.
+Once the program has loaded, you can find 3 buttons.
+Create voice: Begin creating the synthetic voice. If you press it, it begins with the creation of parameters and syntax (this may take a few seconds.
+When finished, it will notify you that the voice is ready. Just accept and discover the final result!
+When you create a voice, it is saved in the "voices" folder. This folder is in the location of this program.
+Note: These voices have an ID, that is, this ID used by espeak NG voice creator is a number that serves to identify a voice among all the voices that are created over time. You can find examples of these IDs in our "Voices" folder.
+* What is the voices folder?
+The "Voices" folder is the directory where the voices you create are stored. You may wonder right now what is in that folder, and it's simple. They are tests and tests of voices created with this program, only classified by genre.
+* User Manual: Displays this document on the screen.
+* Exit: Exits the program.
+* Thanks:Finally, a special thanks to all who have supported me or contributed suggestions or criticism. Your help is always welcome.
+End.

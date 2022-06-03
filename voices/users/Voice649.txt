@@ -1,0 +1,25 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice649
+##Properties##
+gender None 77
+flutter 3
+##voice creation##
+formant 0 138 59 111
+formant 1 75 76 79
+formant 2 136 131 92
+formant 3 76 67 144
+formant 4 156 91 86
+formant 5 91 119 85
+formant 6 93 119 57
+formant 7 127 104 131
+formant 8 63 105 99
+##misceanellous##
+intonation 2
+pitch 149 200
+roughness 5
+breath 14 15 3 3 12 3 26 65
+consonants 145 195
+speed 101
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 141 17 106 17 79 166 146 336

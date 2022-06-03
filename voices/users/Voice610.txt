@@ -1,0 +1,23 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice610
+##Properties##
+gender None 75
+flutter 2
+##voice creation##
+formant 0 93 77 92
+formant 1 133 134 109
+formant 2 128 95 123
+formant 3 105 86 84
+formant 4 80 54 122
+formant 5 122 58 65
+formant 6 56 97 121
+formant 7 96 131 108
+formant 8 129 62 127
+##misceanellous##
+intonation 2
+pitch 139 161
+roughness 3
+speed 111
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 102 83 38 77 102 91 16 198

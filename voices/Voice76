@@ -1,0 +1,23 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice76
+##Properties##
+gender None 68
+flutter 5
+##voice creation##
+formant 0 79 148 121
+formant 1 92 166 122
+formant 2 123 84 87
+formant 3 69 82 154
+formant 4 133 48 138
+formant 5 142 110 114
+formant 6 84 99 124
+formant 7 151 101 87
+formant 8 82 79 91
+##misceanellous##
+intonation 2
+pitch 175 198
+echo 69 527
+roughness 1
+voicing 64
+speed 96

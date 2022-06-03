@@ -1,11 +1,28 @@
+#include "audio.au3"
 #include "KEYINPUT.AU3"
 #include-once
 #include "NVDAControllerClient.au3"
+; #FUNCTION# ====================================================================================================================
+; Name ..........: reader_create_menu
+; Description ...: Simulate an audio menu with the Speaking function, which allows you to send text to the screen reader in use
+; Syntax ........: reader_create_menu($description, $options [, $announcePos = "1" [, $indicator = "OF"]])
+; Parameters ....: $description         - A binary value.
+;                  $options             - A object value.
+;                  $announcePos         - [optional] An array of unknowns. Default is "1".
+;                  $indicator           - [optional] A integer value. Default is "OF".
+; Return values .: None
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
 Func reader_create_menu($description, $options, $announcePos = "1", $indicator = "OF")
 	If $description = "" Then Return 0
 	If $options = "" Then Return 0
 	$selection = 1
-	$items = StringSplit($options, ",")
+	$items = StringSplit($options, "|")
 	If @error Then Return 0
 	$menu_length = $items[0]
 	speaking($description)
@@ -34,7 +51,7 @@ Func reader_create_menu($description, $options, $announcePos = "1", $indicator =
 			ContinueLoop
 		EndIf
 		If $menu_key = "enter" Then
-			$selected = $device.opensound("sounds/soundsdata.dat/selected.ogg", True)
+			$selected = $device.opensound(@scriptDir &"\sounds/selected.ogg", True)
 			$selected.play()
 			If $selection > 0 Then
 				$menu = ""
@@ -45,16 +62,16 @@ Func reader_create_menu($description, $options, $announcePos = "1", $indicator =
 			$selection = $selection - 1
 			If $selection < 1 Then
 				$selection = $menu_length
-				$top = $device.opensound("sounds/soundsdata.dat/scrollTop.ogg", True)
+				$top = $device.opensound(@scriptdir &"\sounds/scrollTop.ogg", True)
 				$top.play()
 			EndIf
 			$file_to_open = $items[$selection]
-			$scroll = $device.opensound("sounds/soundsdata.dat/bound.ogg", True)
+			$scroll = $device.opensound(@scriptdir &"\sounds/bound.ogg", True)
 			$scroll.play()
 			If $announcePos = "1" Then
-				speaking($file_to_open & ", " & $selection & $indicator & " " & $menu_length)
+				speaking($file_to_open & ", " & $selection & $indicator & " " & $menu_length, true)
 			Else
-				speaking($file_to_open)
+				speaking($file_to_open, true)
 			EndIf
 		EndIf
 		If $menu_key = "down arrow" Then
@@ -62,16 +79,16 @@ Func reader_create_menu($description, $options, $announcePos = "1", $indicator =
 			$limit = $menu_length + 1
 			If $selection = $limit Then
 				$selection = 1
-				$top = $device.opensound("sounds/soundsdata.dat/scrollTop.ogg", True)
+				$top = $device.opensound(@scriptdir &"\sounds/scrollTop.ogg", True)
 				$top.play()
 			EndIf
 			$file_to_open = $items[$selection]
-			$bound = $device.opensound("sounds/soundsdata.dat/bound.ogg", True)
+			$bound = $device.opensound(@scriptdir &"\sounds/bound.ogg", True)
 			$bound.play()
 			If $announcePos = "1" Then
-				speaking($file_to_open & ", " & $selection & "of " & $menu_length)
+				speaking($file_to_open & ", " & $selection & "of " & $menu_length, true)
 			Else
-				speaking($file_to_open)
+				speaking($file_to_open, true)
 			EndIf
 		EndIf
 		Sleep(10)

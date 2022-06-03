@@ -1,0 +1,24 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice948
+##Properties##
+gender None 45
+flutter 5
+##voice creation##
+formant 0 129 134 77
+formant 1 60 136 135
+formant 2 77 98 66
+formant 3 74 76 65
+formant 4 97 58 141
+formant 5 127 148 99
+formant 6 107 143 94
+formant 7 127 75 87
+formant 8 116 88 127
+##misceanellous##
+intonation 1
+pitch 188 141
+echo 14 1275
+roughness 5
+speed 115
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 164 10 8 65 146 192 20 29

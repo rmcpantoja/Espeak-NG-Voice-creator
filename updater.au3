@@ -4,13 +4,14 @@
 ;Including scripts
 #include <AutoItConstants.au3>
 #include <MsgBoxConstants.au3>
+#include "include\sapi.au3"
 func checkupdate($S_Program, $s_executable, $s_DatURL, $s_Window)
 $main = GUICreate($s_window)
 GUISetState(@SW_SHOW)
 sleep(10)
 $sLanguage = iniRead ("config\config.st", "General settings", "language", "")
 $ReadAccs = iniRead ("config\config.st", "Accessibility", "Enable enanced accessibility", "")
-Local $yourexeversion = FileGetVersion($s_exexutable)
+Local $yourexeversion = FileGetVersion($s_executable)
 select
 case $sLanguage ="es"
 $newversion=" Tienes la "
@@ -19,7 +20,7 @@ case $sLanguage ="eng"
 $newversion=" You have the version "
 $newversion2=", And is available the "
 endselect
-$fileinfo = InetGet($s_URL, $S_Program &"Web.dat")
+$fileinfo = InetGet($s_DatURL, $S_Program &"Web.dat")
 FileCopy($s_Program &"Web.dat", @TempDir & "\" &$S_Program &"Web.dat")
 $latestver = iniRead (@TempDir & "\" &$S_program &"Web.dat", "updater", "LatestVersion", "")
 if $sLanguage ="Es" then
@@ -208,5 +209,5 @@ sleep(1000)
 FileDelete("extract.exe")
 ;run("EMK.exe")
 ProgressOff()
-exitpersonaliced()
+_exitpersonaliced()
 endfunc

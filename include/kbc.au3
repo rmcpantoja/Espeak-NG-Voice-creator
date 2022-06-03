@@ -1,4 +1,5 @@
 ;Constantes para los atajos de te clado:
+#include-once
 #include <misc.au3>
 Global Const $leftmouse = "01"
 Global Const $rightmouse = "02"
@@ -116,3 +117,5 @@ Global Const $left_control = "A2"
 Global Const $right_control = "A3"
 Global Const $left_menu = "A4"
 Global Const $right_menu = "A5"
+Global Const $tPLUS = "BB"
+Global Const $tMINUS = "BD"

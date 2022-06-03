@@ -1,0 +1,28 @@
+[language info]
+Name=English
+code=En
+version=0.3
+author=Mateo Cedillo
+Copyright=© 2018-2022 MT Programs, All rights reserved
+[strings]
+Checking version...=Checking version...
+update available!=update available!
+You have the version=You have the version
+And is available the=And is available the
+Loading=Loading
+Preparing your Voice...=Preparing your Voice...
+Creating Your Voice: Your Voice ID is:=Creating Your Voice: Your Voice ID is:
+Please do not close this window until further notice.=Please do not close this window until further notice.
+error=error
+An error occurred while opening the file.=An error occurred while opening the file.
+Voice created successfully!=Voice created successfully!
+Voice created=Voice created
+The voice has been created successfully!=The voice has been created successfully!
+User manual=User manual
+The file cannot be found.=The file cannot be found.
+opening...=opening...
+An error occurred while reading the file.=An error occurred while reading the file.
+Window closed=Window closed
+changes=changes
+Create voice=Create voice
+E&xit=E&xit

@@ -1,0 +1,25 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice278
+##Properties##
+gender None 75
+flutter 5
+##voice creation##
+formant 0 127 95 106
+formant 1 124 111 163
+formant 2 138 97 81
+formant 3 110 150 85
+formant 4 140 103 97
+formant 5 70 102 126
+formant 6 142 124 105
+formant 7 99 129 59
+formant 8 134 73 82
+##misceanellous##
+intonation 3
+pitch 72 157
+roughness 4
+consonants 150 68
+voicing 53
+speed 105
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 122 101 173 159 21 183 165 274

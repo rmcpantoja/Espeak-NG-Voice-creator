@@ -4,6 +4,52 @@ $sapi = ObjCreate("sapi.spvoice")
 If @error Then
 	MsgBox(4096, "Error", "Could not initialize sapi 5 engine.")
 EndIf
+; #FUNCTION# ====================================================================================================================
+; Name ..........: spRate
+; Description ...: changes voice speed
+; Syntax ........: spRate($value)
+; Parameters ....: $value               - A variant value.
+; Return values .: None
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
+Func spRate($value)
+$sapi.rate = $value
+EndFunc
+; #FUNCTION# ====================================================================================================================
+; Name ..........: spVolume
+; Description ...: changes voice volume
+; Syntax ........: spVolume($value)
+; Parameters ....: $value               - A variant value.
+; Return values .: None
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
+Func spVolume($value)
+$sapi.volume = $value
+EndFunc
+; #FUNCTION# ====================================================================================================================
+; Name ..........: speak
+; Description ...: speak text with sapi
+; Syntax ........: speak($sText [, $Ivalue = 0])
+; Parameters ....: $sText               - the text to be spoken.
+;                  $Ivalue              - [optional] A integer value. Default is 0.please see the comments below to learn how to use this second parameter
+; Return values .: None
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
 Func speak($sText, $Ivalue = 0)
 	$sapi.Speak($sText, $Ivalue)
 EndFunc   ;==>speak
@@ -53,6 +99,19 @@ SpeakPunctuation
 With this flag, punctuation is actually spoken so the "." becomes the word "period"
 
 #ce
+; #FUNCTION# ====================================================================================================================
+; Name ..........: changeVoice
+; Description ...: sapi5 voice changing function
+; Syntax ........: changeVoice([$id = 0])
+; Parameters ....: $id                  - [optional] An AutoIt controlID. Default is 0.
+; Return values .: None
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
 Func changeVoice($id = 0)
 	$voices = $sapi.GetVoices()
 	$number_of_voices = $voices.Count
@@ -73,25 +132,38 @@ Func changeVoice($id = 0)
 	$sapi.Voice = $voices.Item($id)
 	Return 1
 EndFunc   ;==>changeVoice
-; get_number_of_voices
-; This function is quite useful when you want to display a list of all the available voices. ; This will return the number of voices that are installed on your system. Note that if you ; want to change the voice, you need to subtract the number with 1, since it is 0 based when ; you change stuff.
-; Return values
-; The number of voices installed, 1 based.
-
+; #FUNCTION# ====================================================================================================================
+; Name ..........: getNumberOfVoices
+; Description ...: This function is quite useful when you want to display a list of all the available voices. ; This will return the number of voices that are installed on your system. Note that if you ; want to change the voice, you need to subtract the number with 1, since it is 0 based when ; you change stuff.
+; Syntax ........: getNumberOfVoices()
+; Parameters ....: None
+; Return values .: The number of voices installed, 1 based.
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
 Func getNumberOfVoices()
 	$voices = $sapi.GetVoices()
 	$number_of_voices = $voices.Count
 	Return $number_of_voices
 EndFunc   ;==>getNumberOfVoices
-
-; get_voice_name
-; Returns the name of the voice that you specify. Once again, it is 0 based. For example, if ; I pass 0 to this function, it will return "Microsoft Mary" on my system. However, it is ;different for every user.
-; Return values
-; Success returns the name of the voice.
-; Failure returns 0 and sets @Error to -1, this will for example be the case if you try to ; get the name of a voice that does not exist. Sometimes, there are corrupt or invalid
-; voices on the system, it will return 0 and set @Error to -1 then as well.
-; Obviously, those voices cannot be used even though they're in the list, if you try AutoIt ; will generate an error.
-
+; #FUNCTION# ====================================================================================================================
+; Name ..........: getVoiceName
+; Description ...: Returns the name of the voice that you specify. Once again, it is 0 based. For example, if ; I pass 0 to this function, it will return "Microsoft Mary" on my system. However, it is ;different for every user.
+; Syntax ........: getVoiceName([$i = 0])
+; Parameters ....: $i                   - [optional] A integer value. Default is 0.
+; Return values .: Success returns the name of the voice.
+; Failure returns 0 and sets @Error to -1, this will for example be the case if you try to get the name of a voice that does not exist. Sometimes, there are corrupt or invalid voices on the system, it will return 0 and set @Error to -1 then as well. Obviously, those voices cannot be used even though they're in the list, if you try AutoIt ; will generate an error.
+; Author ........: Mateo Cedillo
+; Modified ......: 
+; Remarks .......: 
+; Related .......: 
+; Link ..........: 
+; Example .......: No
+; ===============================================================================================================================
 Func getVoiceName($i = 0)
 	If IsInt($i) Then
 	Else

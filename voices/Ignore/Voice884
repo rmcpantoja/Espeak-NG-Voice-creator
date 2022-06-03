@@ -1,0 +1,23 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice884
+##Properties##
+gender None 67
+flutter 4
+##voice creation##
+formant 0 95 81 133
+formant 1 119 73 92
+formant 2 99 71 139
+formant 3 79 80 138
+formant 4 62 107 81
+formant 5 66 57 131
+formant 6 139 145 136
+formant 7 90 122 107
+formant 8 99 120 94
+##misceanellous##
+intonation 3
+pitch 101 280
+roughness 4
+speed 111
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 132 63 159 151 140 186 117 65

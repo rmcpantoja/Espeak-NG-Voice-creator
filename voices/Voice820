@@ -1,0 +1,23 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice820
+##Properties##
+gender None 57
+flutter 4
+##voice creation##
+formant 0 148 79 88
+formant 1 113 146 76
+formant 2 93 90 92
+formant 3 122 104 99
+formant 4 82 130 95
+formant 5 133 142 74
+formant 6 97 137 107
+formant 7 134 102 58
+formant 8 94 138 87
+##misceanellous##
+intonation 1
+pitch 130 213
+echo 48 4961
+roughness 3
+voicing 52
+speed 91

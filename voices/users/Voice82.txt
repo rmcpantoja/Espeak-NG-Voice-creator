@@ -1,0 +1,24 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice82
+##Properties##
+gender None 65
+flutter 1
+##voice creation##
+formant 0 109 100 107
+formant 1 84 94 127
+formant 2 81 131 116
+formant 3 83 94 134
+formant 4 68 102 94
+formant 5 86 90 97
+formant 6 137 121 58
+formant 7 134 54 124
+formant 8 133 54 56
+##misceanellous##
+intonation 2
+pitch 158 299
+roughness 3
+breath 22 9 7 7 13 26 13 11
+speed 103
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 86 93 99 80 103 211 138 63

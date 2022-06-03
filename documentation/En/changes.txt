@@ -1,0 +1,27 @@
+Changes.
+0.3 public beta
+Many code fixes and some new features have been made in this version:
+*User changes:
+1. added multilingual support.
+1.1. Added support for generating klatt voices
+1.2. the program takes much less time to load, thanks to a somewhat unnecessary feature that had to be removed
+1.3. Removed Windows alert on startup.
+1.4. Fixed issues with antivirus, false positives, basically. Now it should no longer give alerts. (antivirus, trust me, I'm not going to hurt anyone or anything)
+*Fixes:
+2. Shift window and manual now work properly. The code has been completely migrated to event mode which avoids navigation delay.
+* Developing:
+3. All the UDFs included in this program have been updated. Every UDF has had features, changes or fixes after so long with version 0.2.
+0.2 public beta, May 23, 2021 in process, (June 20, 2021 released)
+* User changes:
+1. Updated autoIt to version 3.3.15.4.
+1.1. Rewritten all code.
+1.2. You no longer have to modify anything in the file of each voice, now the program does everything right, ready to copy into Espeak's "! V" folder.
+1.3. Added the auto-Updater.
+* Fixes:
+2. The way espeak Voice Creator makes the voice has been improved, making the process even faster.
+2.1. Stability fixes.
+2.2. It is a bit normal that you find this error when closing the help window of the program, this due to changes in the code to migrate to the other graphical interface method, which solves all the problems with lag when navigating with screen readers.
+* Development:
+3. Updated various UDFs.
+0.1, October 7, 2020.
+Main version, therefore missing.

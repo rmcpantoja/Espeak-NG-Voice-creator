@@ -1,0 +1,26 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice700
+##Properties##
+gender None 18
+flutter 1
+##voice creation##
+formant 0 126 88 107
+formant 1 81 74 81
+formant 2 114 92 137
+formant 3 118 91 99
+formant 4 117 100 99
+formant 5 91 113 121
+formant 6 56 73 123
+formant 7 108 55 63
+formant 8 126 58 93
+##misceanellous##
+intonation 1
+pitch 97 165
+echo 42 6401
+roughness 1
+breath 26 3 3 10 22 33 23 85
+voicing 60
+speed 102
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 17 114 185 223 37 130 87 265

@@ -1,0 +1,28 @@
+[language info]
+Name=Español
+code=Es
+version=0.3
+author=Mateo Cedillo
+Copyright=© 2018-2022 MT Programs, All rights reserved
+[strings]
+Checking version...=Comprobando versión...
+update available!=¡actualización disponible!
+You have the version=Tienes la versión
+And is available the=Y está disponible la
+Loading=Cargando
+Preparing your Voice...=Preparando tu Voz...
+Creating Your Voice: Your Voice ID is:=Creando tu voz: tu ID de voz es:
+Please do not close this window until further notice.=Por favor, no cierres esta ventana hasta un nuevo aviso.
+error=error
+An error occurred while opening the file.=Ha ocurrido un error al abrir el archivo.
+Voice created successfully!=¡Voz creada con éxito!
+Voice created=Voz creada
+The voice has been created successfully!=¡La voz ha sido creada exitosamente!
+User manual=Manual del usuario
+The file cannot be found.=No se ha podido encontrar el archivo.
+opening...=Abriendo...
+An error occurred while reading the file.=Ha ocurrido un error al leer el archivo.
+Window closed=Ventana cerrada
+changes=Cambios
+Create voice=Crear voz
+E&xit=&Salir
