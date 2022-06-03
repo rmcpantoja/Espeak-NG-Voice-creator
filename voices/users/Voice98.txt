@@ -1,0 +1,23 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice98
+##Properties##
+gender None 79
+flutter 2
+##voice creation##
+formant 0 79 148 78
+formant 1 91 82 97
+formant 2 143 96 138
+formant 3 123 89 112
+formant 4 145 131 52
+formant 5 152 150 108
+formant 6 68 135 120
+formant 7 149 64 82
+formant 8 104 60 87
+##misceanellous##
+intonation 1
+pitch 77 196
+roughness 4
+speed 100
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 66 83 58 171 22 132 113 268

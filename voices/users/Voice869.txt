@@ -1,0 +1,25 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice869
+##Properties##
+gender None 46
+flutter 2
+##voice creation##
+formant 0 80 104 101
+formant 1 116 138 131
+formant 2 89 95 107
+formant 3 78 124 129
+formant 4 83 67 115
+formant 5 70 109 52
+formant 6 138 62 148
+formant 7 147 71 80
+formant 8 97 87 45
+##misceanellous##
+intonation 3
+pitch 124 245
+roughness 3
+breath 26 10 18 7 39 30 25 70
+voicing 64
+speed 99
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 47 108 138 74 77 131 20 104

@@ -1,0 +1,24 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice658
+##Properties##
+gender None 58
+flutter 5
+##voice creation##
+formant 0 116 102 128
+formant 1 136 84 154
+formant 2 109 81 113
+formant 3 123 126 135
+formant 4 69 133 56
+formant 5 133 150 30
+formant 6 92 137 99
+formant 7 85 105 65
+formant 8 109 85 125
+##misceanellous##
+intonation 3
+pitch 85 276
+roughness 4
+consonants 65 188
+speed 104
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 159 99 19 217 116 106 135 124

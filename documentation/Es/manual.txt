@@ -1,0 +1,22 @@
+Manual de usuario de Espeak NG Voice Creator:
+Nota: Tanto el programa como la documentación se han reescrito, pese a que la versión anterior se ha perdido. Esta nueva versión incluye mejoras en la creación de voz y en GUI.
+* ¿Qué es esto?
+Espeak NG Voice creator, como su nombre lo indica en inglés, es un creador de voces para el sintetizador Espeak NG, sintetizador de voz integrado en el lector de pantallas NVDA, Orca For Linux, entre otros. Soporta más de 100 idiomas, entre ellas el español. Es muy libiano y ligero para la respuesta de síntesis, pero su voz da mucho que decir, es decir, puede no ser agradable para algunas personas o simplemente la voz no parece satisfacer a las personas por el hecho de que es un sintetizador por formantes y es muy provable que la voz pueda ser un tanto insegura.
+Si bien Espeak tiene una voz muy robótica, hay más voces personalizadas que se pueden escoger, crear o modificar, según se adapte el usuario, y con justa razón, este programa cumple con el objetivo de crear diferentes voces con distintas calidades y algoritmos, de momento sólo para Windows (aunque se pueden copiar las voces en otro dispositivo que soporte Espeak).
+* ¿Cómo usar?
+Primero abre el archivo EVC.exe
+Cuando ejecutes, el programa se carga y comprueva si hay actualización disponible, y si existe, te lo informa.
+Nota: Si al abrir te aparece una alerta de seguridad en Windows, presiona el botón "Permitir acceso".
+Explicación: Esto es porque ahora el programa usa otro método de actualización del que solía usar anteriormente en el resto de mi suite, mediante ftp a nuestro nuevo servidor de 260mb. En el método anterior se trataba de descargar el archivo de datos (versión disponible, mensaje del día) desde un enlace, que apunta a un archivo de mi Dropbox.
+Una vez el programa se haya cargado, te puedes encontrar con 3 botones.
+Crear voz: Comienza la creación de la voz sintética. Si lo presionas, comienza con la creación de parámetros y sintáxis (esto puede tardar unos segundos.
+Al terminar, te notificará que la voz está lista. ¡Solamente acepta y descubre el resultado final!
+Cuando creas una voz, esta se guarda en la carpeta "voices". Dicha carpeta se encuentra en la ubicación de este programa.
+Nota: Estas voces tienen una ID, es decir, esta ID que usa espeak NG voice creator es un número que sirve para identificar una voz entre todas las voces que se vayan creando con el pasar del tiempo. Puedes encontrar ejemplos de estas ID en nuestra carpeta "Voices".
+* ¿Qué es la carpeta voices?
+La carpeta "Voices" es el directorio donde se almacenan las voces creadas por ti. Puedes preguntarte ahora mismo qué contiene esa carpeta, y es simple. Son pruebas y tests de voces creadas con este programa, solamente que clasificadas por género.
+* Manual del usuario: Muestra en pantalla el presente documento.
+* Salir: Sale del programa.
+* Agradecimientos:
+Finalmente un agradecimiento especial a todos quienes me han apoyado o aportado sugerencias o críticas. Su ayuda es siempre bienvenida.
+Fin.

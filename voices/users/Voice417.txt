@@ -1,0 +1,26 @@
+##This voice has been created with Espeak NG Voice Creator##
+language variant
+name Voice417
+##Properties##
+gender None 22
+flutter 3
+##voice creation##
+formant 0 81 127 134
+formant 1 120 135 152
+formant 2 97 119 76
+formant 3 84 129 114
+formant 4 70 68 109
+formant 5 158 80 30
+formant 6 67 127 88
+formant 7 83 52 88
+formant 8 91 79 63
+##misceanellous##
+intonation 1
+pitch 89 190
+echo 7 2352
+roughness 5
+consonants 74 53
+voicing 51
+speed 114
+stressLength 0 1 2 3 4 5 6 7
+stressAdd 99 13 115 57 97 47 201 312

@@ -1,0 +1,28 @@
+[language info]
+Name=
+code=
+version=
+author=
+Copyright=
+[strings]
+Checking version...=
+update available!=
+You have the version=
+And is available the=
+Loading=
+Preparing your Voice...=
+Creating Your Voice: Your Voice ID is:=
+Please do not close this window until further notice.=
+error=
+An error occurred while opening the file.=
+Voice created successfully!=
+Voice created=
+The voice has been created successfully!=
+User manual=
+The file cannot be found.=
+opening...=
+An error occurred while reading the file.=
+Window closed=
+changes=
+Create voice=
+E&xit=
